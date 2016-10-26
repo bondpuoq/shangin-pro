@@ -1,0 +1,187 @@
+div.logo-container {
+  margin: 0 auto;
+  padding: 100px;
+  width: 1000px;
+}
+
+#logo {
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  margin: 0 auto;
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+.s {
+  position: absolute;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.s#top {
+  width: 300px;
+  height: 300px;
+  left: 200px;
+  top: 100px;
+  border-radius: 150px;
+  box-shadow: 0px 0px 0 50px black;
+}
+.s#top-crop {
+  width: 300px;
+  height: 300px;
+  left: 270px;
+  top: 200px;
+  background-color: white;
+}
+.s#bottom {
+  width: 300px;
+  height: 300px;
+  left: 0px;
+  top: 387px;
+  border-radius: 150px;
+  box-shadow: 0px 0px 0 50px black;
+}
+.s.crop {
+  width: 300px;
+  height: 300px;
+}
+.s#bottom-crop1 {
+  width: 300px;
+  height: 300px;
+  border-radius: 200px;
+  left: -10px;
+  top: 372px;
+  background-color: white;
+}
+.s#bottom-crop2 {
+  border-radius: 125px;
+  left: -47px;
+  top: 335px;
+  background-color: white;
+  transform: rotate(45deg);
+}
+.s#bottom-crop3 {
+  border-radius: 125px;
+  left: -74px;
+  top: 309px;
+  background-color: white;
+  transform: rotate(321deg);
+}
+.s#bottom-crop4 {
+  left: -142px;
+  top: 445px;
+  background-color: white;
+}
+.s#thread1 {
+  display: block;
+  background-color: black;
+  width: 400px;
+  height: 25px;
+  transform: rotate(70deg);
+  top: 340px;
+  left: 140px;
+}
+.s#thread2 {
+  display: block;
+  background-color: black;
+  width: 250px;
+  height: 25px;
+  transform: rotate(80deg);
+  top: 380px;
+  left: 325px;
+}
+.s#thread3 {
+  display: block;
+  background-color: black;
+  width: 140px;
+  height: 25px;
+  border-radius: 13px;
+  transform: rotate(130deg);
+  top: 300px;
+  left: 320px;
+}
+.s#thread4 {
+  display: block;
+  background-color: black;
+  width: 100px;
+  height: 25px;
+  border-radius: 13px;
+  transform: rotate(130deg);
+  top: 470px;
+  left: 444px;
+}
+.s#thread5 {
+  display: block;
+  background-color: black;
+  width: 500px;
+  height: 25px;
+  border-radius: 13px;
+  transform: rotate(161deg);
+  top: 495px;
+  left: 371px;
+}
+.s#thread6 {
+  display: block;
+  background-color: black;
+  width: 180px;
+  height: 25px;
+  border-radius: 13px;
+  transform: rotate(161deg);
+  top: 585px;
+  left: 395px;
+}
+.s#thread7 {
+  display: block;
+  background-color: black;
+  width: 160px;
+  height: 25px;
+  border-radius: 13px;
+  transform: rotate(161deg);
+  top: 625px;
+  left: 415px;
+}
+.s#thread8 {
+  display: block;
+  background-color: black;
+  width: 160px;
+  height: 25px;
+  border-radius: 13px;
+  transform: rotate(28deg);
+  top: 58px;
+  left: 15px;
+}
+.s#thread9 {
+  display: block;
+  background-color: black;
+  width: 100px;
+  height: 25px;
+  border-radius: 13px;
+  transform: rotate(100deg);
+  top: -44px;
+  left: 340px;
+}
+.s#thread10 {
+  display: block;
+  background-color: black;
+  width: 125px;
+  height: 25px;
+  border-radius: 13px;
+  transform: rotate(70deg);
+  top: -55px;
+  left: 160px;
+}
+.s#dot {
+  width: 25px;
+  height: 25px;
+  border-radius: 13px;
+  background-color: black;
+  top: 445px;
+  left: 600px;
+}
+.s#pro {
+  font-family: "Tahoma";
+  font-size: 260px;
+  left: 580px;
+  top: 131px;
+  transform: rotate(342deg);
+}

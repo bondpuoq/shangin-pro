@@ -1,0 +1,82 @@
+/* Виджет */
+
+/* Header */
+#widget-app div.header {
+  background: #C1CEFA !important;
+  color: #1E253C !important;
+}
+
+/* Форма */
+#widget-app div.widget-form {
+  background: linear-gradient(45 deg, #E2EEFE, 60%, #EBF0FF) !important; 
+}
+
+/* Переписка */
+#widget-app div.messages .messages__container {
+  background: linear-gradient(45deg, #E2EEFE, 60%, #EBF0FF) !important; 
+}
+
+/* Поля формы */
+#widget-app div.widget-form input,
+#widget-app div.widget-form textarea {
+  background: linear-gradient(45deg, #FFFFFF, #EBF9FC) !important;
+  border: 1px solid #C1CEFA;
+  color: #1E253C;
+}
+
+/* Поля формы в фокусе */
+#widget-app div.widget-form input:focus,
+#widget-app div.widget-form textarea:focus {
+  border: 1px solid #A5A3E3;
+}
+
+/* Поле ввода сообщения */
+#widget-app div.message-input {
+  background: linear-gradient(45deg, #FFFFFF, #EBF9FC) !important;
+  color: #1E253C;
+}
+
+#widget-app div.message-input div.message-input__textarea textarea {
+  background: none;
+}
+
+/* Сообщения бота */
+#widget-app div.message.message_bot .message__container {
+  background: #F054BA !important;
+  background: linear-gradient(45deg, #CC41D9, 60%, #F054BA) !important;
+  color: #FFF !important;
+}
+
+/* Сообщения посетителя */
+#widget-app div.message.message_visitor .message__container {
+  background: linear-gradient(45deg, #2BA4D9, 60%, #3D8BF0) !important;
+  color: #FFF !important;
+}
+
+/* Сообщения оператора */
+#widget-app div.message.message_visitor .message__container {
+  background: linear-gradient(45deg, #EBF9FC, 60%, #FFFFFF) !important;
+  color: #1E253C !important;
+}
+
+/* Кнопка Отправить */
+#widget-app div.widget-form__field.widget-form__field_button button {
+  background: linear-gradient(45deg, #3D8BF0, 60%, #F054BA) !important;
+  border: 0;
+}
+
+#widget-app div.widget-form__field.widget-form__field_button button:hover {
+  background: linear-gradient(45deg, #F054BA, 60%, #3D8BF0) !important;
+  border: 0;
+}
+
+/* Кнопки в чате */
+#widget-app div.messages div.chat-buttons button {
+  background: linear-gradient(45deg, #3D8BF0, 60%, #F054BA) !important;
+  border: 0;
+}
+
+#widget-app div.messages div.chat-buttons button:hover {
+  background: linear-gradient(45deg, #F054BA, 60%, #3D8BF0) !important;
+  border: 0;
+}
